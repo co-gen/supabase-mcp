@@ -1,4 +1,7 @@
 {
   "extends": "@total-typescript/tsconfig/tsc/dom/library",
-  "include": ["src/**/*.ts"]
+  "include": ["src/**/*.ts"],
+  "compilerOptions": {
+    "esModuleInterop": true
+  }
 }

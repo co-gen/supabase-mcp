@@ -5,6 +5,7 @@
       "dependencies": {
         "@modelcontextprotocol/sdk": "^1.11.4",
         "eventsource": "^4.0.0",
+        "express": "^5.1.0",
       },
       "devDependencies": {
         "@types/express": "^5.0.2",
@@ -15,7 +16,7 @@
       "name": "@supabase/mcp-server-postgrest",
       "version": "0.1.0",
       "bin": {
-        "mcp-server-postgrest": "./dist/stdio.js",
+        "mcp-server-postgrest": "./dist/stdio.js"
       },
       "dependencies": {
         "@modelcontextprotocol/sdk": "^1.4.1",
@@ -39,13 +40,14 @@
       "name": "@supabase/mcp-server-supabase",
       "version": "0.4.1",
       "bin": {
-        "mcp-server-supabase": "./dist/stdio.js",
+        "mcp-server-supabase": "./dist/stdio.js"
       },
       "dependencies": {
         "@deno/eszip": "^0.84.0",
         "@modelcontextprotocol/sdk": "^1.4.1",
         "@supabase/mcp-utils": "0.2.0",
         "common-tags": "^1.8.2",
+        "express": "^5.1.0",
         "openapi-fetch": "^0.13.5",
         "zod": "^3.24.1",
       },
@@ -75,6 +77,7 @@
       "version": "0.2.0",
       "dependencies": {
         "@modelcontextprotocol/sdk": "^1.4.1",
+        "express": "^5.1.0",
         "zod": "^3.24.1",
         "zod-to-json-schema": "^3.24.1",
       },

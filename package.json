@@ -8,6 +8,11 @@
     "test:coverage": "npm run test:coverage --workspace @supabase/mcp-server-supabase"
   },
   "devDependencies": {
+    "@types/express": "^5.0.2",
     "supabase": "^2.1.1"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.4",
+    "eventsource": "^4.0.0"
   }
 }

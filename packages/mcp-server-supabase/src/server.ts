@@ -87,22 +87,22 @@ export function createSupabaseMcpServer(options: SupabaseMcpServerOptions) {
           projectId,
           readOnly,
         }),
-        getEdgeFunctionTools({
-          managementApiClient,
-          projectId,
-        }),
-        getDebuggingTools({
-          managementApiClient,
-          projectId,
-        }),
-        getDevelopmentTools({
-          managementApiClient,
-          projectId,
-        }),
-        getBranchingTools({
-          managementApiClient,
-          projectId,
-        })
+        // getEdgeFunctionTools({
+        //   managementApiClient,
+        //   projectId,
+        // }),
+        // getDebuggingTools({
+        //   managementApiClient,
+        //   projectId,
+        // }),
+        // getDevelopmentTools({
+        //   managementApiClient,
+        //   projectId,
+        // }),
+        // getBranchingTools({
+        //   managementApiClient,
+        //   projectId,
+        // })
       );
 
       return tools;

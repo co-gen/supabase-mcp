@@ -57,7 +57,7 @@ async function main() {
     res.setHeader('Cache-Control', 'no-cache');
     res.setHeader('Connection', 'keep-alive');
     
-    const transport = new SSEServerTransport('/messages', res);
+    const transport = new SSEServerTransport('/messages?clientId=' + clientId, res);
     connections.set(clientId, transport);
     server.connect(transport);
     
